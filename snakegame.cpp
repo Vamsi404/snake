@@ -1,7 +1,12 @@
+// Header files
+
 #include<iostream>
 #include<cstdlib>
 #include<conio.h>
 #include<windows.h>
+
+// Variable declaration
+
 using namespace std;
 bool gameover;
 const int width=20;
@@ -158,6 +163,7 @@ int main()
 		for(int z=1;z<100000000;)
 		z++;
 	}
+	//Score display
 	cout<<"                                                         SCORE="<<score<<endl;
 	cout<<"							WELL PLAYED                           ";
 
