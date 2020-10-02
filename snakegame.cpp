@@ -15,6 +15,8 @@ int x,y,fruitx,fruity,score;
 int tailx[1000],taily[1000];
 int ntail;
 
+// movements
+
 enum eDirection  {STOP=0,LEFT,RIGHT,UP,DOWN};
 eDirection dir;
 
